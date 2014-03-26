@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+		<meta charset ='UTF-8' />
+		<title>A.D.N.</title>
+		<link rel="stylesheet" href='css/normalize.css'>
+		<link rel="stylesheet" href="css/estilos.css">
+		<script src="js/jquey.js"></script>
+		<script src="js/funciones.js"></script>
+</head>
+
+<body>
+	<header>
+			<figure id='logo'>
+					<img src="images/logo.gif" />
+			</figure>
+
+				<h1 id='titulo_header'>
+					CENTRO COLOMBIANO DE ESTUDIOS PROFESIONALES
+				</h1>
+       <br style='clear:both' />
+	</header>
+
+			<nav>
+				<ul>
+					<li> <a id='crear_Secuencia' 			href="#">Crear Secuencia ADN</a></li>
+					<li> <a id='Longitud_Secuencia' 	href="#">Obtener Longitud de Cadena Creada</a></li>
+					<li> <a id='Comparar_Cadenas' 	  href="#">Comparar Cadenas de ADN</a></li>
+					<li> <a id='Contar_Nucleotidos'   href="#">Contar Neuclótidos de una Cadena</a></li>
+					<li> <a id='Contiene_Secuencia'   href="#">Contenido Secuencia</a></li>
+					<li> <a href="#">Es una Secuencia Válida</a></li>
+					<li> <a href="#">Depurar Secuencia</a></li>
+				</ul>
+			</nav>
+
+		<div id="Res_crear_Secuencia"> Res_crear_Secuencia </div>
+		<div id="Res_Longitud_Secuencia"> Res_Longitud_Secuencia </div>
+		<div id="Res_Comparar_Cadenas"> Res_Longitud_Secuencia </div>
+		<div id='Ppal_Contar_Nucleotidos'>
+			<label for="campo">Ingrese el nucléotido que desea contar : </label><input id='nucleotido_a_evaluar' maxlength=1 type="text"/>
+			<input type="button" value='Inciar Conteo de Nucléotidos' id='iniciar'>
+			<div id='Res_Contar_Nucleotidos'><br>Res_Contar_Neuclotidos</div>
+		</div>
+
+
+
+  <footer>
+		Desarrollado por: <strong><em>JHON JAMES MONTAÑO GONZALEZ</em></strong>
+		<br><em>Código de estudiante: 02281163 </em>
+  </footer>
+
+  <script>
+  	$(document).ready(Operaciones_ADN); //funcion inicial de JQuery
+  </script>
+
+</script>
+ </body>
+</html>
